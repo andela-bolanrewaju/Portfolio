@@ -1,0 +1,293 @@
+/************************************
+ GENERAL STRUCTURE
+*************************************/
+body{
+  font-family: Open Sans, sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/************************************
+ LINKS
+*************************************/
+
+
+
+/************************************
+ HEADING
+*************************************/
+header{
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after{
+  clear: both;
+}
+
+.group{
+  *zoom: 1;
+}
+
+header 
+
+#logo {
+  font-family: Great Vibes, Times New Roman;
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2 {
+  color: #fff;
+  margin: 0;
+}
+
+h1 {
+  font-family: Great Vibes, sans-serif;
+  font-size: 5.85em;
+  font-weight: normal;
+}
+
+#description{
+  margin: -25px 0px 30px 0px;
+  font-size: 1.5em;
+  padding: 0;
+}
+
+
+
+
+/************************************
+ PAGE: ABOUT
+*************************************/
+.profile-photo {
+  display: block;
+  margin: 0 auto 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #CDF;
+  background-image:  -webkit-linear-gradient(bottom, yellow, transparent 50%), url("../img/bondox.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-clip: c;*/
+}
+
+
+
+/************************************
+ PAGE: CONTACT
+*************************************/
+
+.contact-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info li.phone a{
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a {
+  background-image: url('../img/mail.png');
+}
+
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+
+
+
+
+
+/************************************
+ COLOR
+*************************************/
+/*Body color*/
+body{
+  background-color: #fff;
+  color: #999;
+}
+
+/*Navigation*/
+nav a {
+  color: #fff;
+}
+
+nav a:hover, nav a.selected {
+  color: #CCF;
+  background-color: #036;
+}
+
+/*Header*/
+header {
+  background-color: #069;
+}
+
+
+
+/************************************
+ GALLERY AND IMAGES
+*************************************/
+
+img {
+  max-width: 100%;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+  word-wrap: break-word;
+  box-shadow: 0 0 1px rgb(150,150,150);
+}
+
+
+#gallery li:hover{
+  box-shadow: 0 0 15px rgb(180,180,180);
+  cursor: pointer;
+}
+
+
+#gallery li a img{
+  transition:all 1s ease 0s;
+  -webkit-transition:all 1s ease 0s;
+  -moz-transition:all 1s ease 0s;
+  -o-transition:all 1s ease 0s;
+  -ms-transition:all 1s ease 0s;
+}
+
+#gallery li a:hover img{
+}
+
+#gallery li a p {
+  margin: 0;
+  color: #888;
+  padding: 5%;
+  font-size: 0.75em;
+  line-height: 0.7em;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+#overlay {
+  display: none;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  position: fixed;
+  background-color: rgba(0,0,0,0.65);
+  z-index: 100px;
+}
+
+#overlay-img {
+  text-align: center;
+  z-index: 101;
+  position: fixed;
+  top: 20%;
+  margin-left: 2%;
+  margin-right: 15%;
+  display: none;
+}
+
+#overlay-img img{
+  padding: 10px;
+  background-color: #FFF;
+}
+
+#overlay-img button{
+  padding: 10px;
+  background-color: rgba(100,100,250,0.7);
+  border: 1px solid rgb(0,0,240);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+
+#overlay-img button:focus{
+  outline:none;
+}
+
+/************************************
+ NAVIGATION
+*************************************/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  background-color: #057
+}
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 10px 10px;
+  border-radius: 7px;
+}
+
+
+
+
+
+
+/************************************
+ FOOTER
+*************************************/
+footer {
+  clear: both;
+  text-align: center;
+}
