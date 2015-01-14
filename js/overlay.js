@@ -5,7 +5,7 @@ $(document).ready(function(){
 		var url = $(this).children("img").attr("alt");
 		$("#overlay").fadeIn();
 		var content = '<img src="'+ imglink + '" alt="">';
-			content += '<button type="button" formaction="http://bosunolanrewaju.github.io/' + url + '" class="btn btn-default">View Site</button>';
+			content += '<button type="button" formaction="http://andela-bolanrewaju.github.io/' + url + '" class="btn btn-default">View Site</button>';
 		$("#overlay-img").html(content);
 		$("#overlay-img").fadeIn();
 	});
